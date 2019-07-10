@@ -57,7 +57,7 @@ const Sync = {
         let idx = filenames.indexOf(jtree)
         if (idx > -1) {
           console.log(`${jtree} found`)
-          filenames.splice(idx)
+          filenames.splice(idx, 1)
         }
       }
     }
